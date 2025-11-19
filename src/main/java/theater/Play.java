@@ -1,7 +1,7 @@
 package theater;
 
 /**
- * This class is called Play.
+ * This class is called Play and it does.
  */
 public class Play {
 
