@@ -22,7 +22,8 @@ public class StatementPrinter {
      * @throws RuntimeException if one of the play types is not known
      */
     public String statement() {
-        final StringBuilder result = new StringBuilder("Statement for " + getInvoice().getCustomer() + System.lineSeparator());
+        final StringBuilder result = new StringBuilder("Statement for "
+                + getInvoice().getCustomer() + System.lineSeparator());
 
         for (Performance performance : getInvoice().getPerformances()) {
             // print line for this order
